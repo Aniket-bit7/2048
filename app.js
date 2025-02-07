@@ -172,33 +172,3 @@ function hasEmptyTile() {
   }
   return false;
 }
-
-const hammer = new Hammer(document.body);
-hammer.get("swipe").set({ direction: Hammer.DIRECTION_ALL });
-
-hammer.on("swipeleft", () => {
-  slideLeft();
-  setTwo();
-});
-
-hammer.on("swiperight", () => {
-  slideRight();
-  setTwo();
-});
-
-hammer.on("swipeup", () => {
-  slideUp();
-  setTwo();
-});
-
-hammer.on("swipedown", () => {
-  slideDown();
-  setTwo();
-});
-
-document.body.addEventListener("touchstart", (e) => e.preventDefault(), {
-  passive: false,
-});
-document.body.addEventListener("touchmove", (e) => e.preventDefault(), {
-  passive: false,
-});
