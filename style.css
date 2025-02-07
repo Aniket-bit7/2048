@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(238, 228, 218, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(174, 174, 92);
+  font-size: 12vmin;
+}
+
+.box1 {
+  margin-top: 2vmin;
+  text-align: center;
+  font-size: 2.5vmin;
+  border: 1px solid burlywood;
+  background-color: antiquewhite;
+  padding: 2vmin;
+  color: rgb(174, 174, 92);
+}
+
+.box2 {
+  margin-top: 2vmin;
+  text-align: center;
+  font-size: 2.5vmin;
+  border: 1px solid burlywood;
+  background-color: antiquewhite;
+  padding: 2vmin;
+  color: rgb(174, 174, 92);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vmin;
+}
