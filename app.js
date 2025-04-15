@@ -61,7 +61,7 @@ document.addEventListener("keyup", (e) => {
   }
 
   document.getElementById("score").innerText = score;
-
+  // what i do here is to save the best score in local storage and it also updates it in UI. 
   if (score > best) {
     best = score;
     localStorage.setItem("best2048", best);
